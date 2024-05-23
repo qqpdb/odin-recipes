@@ -1,1 +1,1 @@
-# odin-recipes
+Hello. This project will demonstrate some basic HTML and CSS.
