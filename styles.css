@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after  {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+body {
+    background-color: #05395a;
+    margin-bottom: 100px;
+}
+
+h1  {
+    font-family: "Times New Roman", serif ;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2  {
+    padding: 8px;
+    text-align: center;
+}
+
+ul,
+ol {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 32px;
+}
+
+p  {
+    padding: 20px;
+    background-color: lightblue;
+    margin: 8px; 
+
+}
+
+.content {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 24px;
+    border: black 2px solid;
+    background-color: white;
+    border: outset 10px black;
+}
+
+.section{
+    border: black 2px solid;
+    margin: 8px 0px;
+    padding: 20px;
+    /* background-color: lightblue; */
+}
+
+.intro {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+a.menu {
+    background-color: black;
+    text-decoration: none;
+    padding: 2px;
+    border: 2px grey solid;
+    color: white;
+    display: inline-block;
+    margin:1px;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.indexmenu {
+    list-style: none;
+    margin: 0px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.testing {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 140`px;
+}
+
+
+.testcontainer {
+    position: relative;
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: whitesmoke;
+}
+
+
+.testnav {
+    width: 140px;
+    left: 0px;
+    float: left;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.testsection {
+    margin-left: 140px;
+    border: 1px solid black;   
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+img.floatleft {
+    float: left;
+    margin: 8px 1em 1em 8px;
+    border: 1px dotted black;
+}
+
+img.floatright {
+    float: right;
+    margin: 8px 8px 1em 1em;
+    border: 1px dotted black;
+}
+
+.clear {
+    clear: left;
+}
+
+.overflow {
+    overflow: auto;
+}
